@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    background-position: center center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 70px;
+}
+
+nav img {
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+
+}
+
+.hero span {
+    font-weight: bolder;
+    font-size: 35px;
+    z-index: 5;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    z-index: 5;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 5;
+    text-align: center;
+}
+
+.email {
+    z-index: 5;
+    padding: 0px;
+    background-color: rgb(8, 8, 8, 0.4)
+}
+
+.seperation {
+    height: 4px;
+    background-color: gray;
+
+}
+
+.btn {
+    background-color: white;
+    /* color: white; */
+    padding: 3px 8px;
+    font-weight: bold;
+
+
+}
+
+#btn {
+    z-index: 5;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero input {
+    padding: 4px 2px;
+    font-size: 20px;
+    height: 23px;
+    background-color: rgba(11, 11, 11, 0.132);
+}
+
+.btn-red {
+
+    background-color: red;
+    font-size: 10px;
+    color: white;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    height: 450px;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    top: 23px;
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.second img {
+    height: 290px;
+}
+
+.third video {
+    position: absolute;
+    top: 51px;
+    right: 96px;
+    width: 320px;
+
+
+}
+.faku{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    
+
+}
+.fakbox{
+    display: flex;
+    background-color: rgba(101, 98, 98, 0.56);
+    padding: 23px;
+    max-width: 65vw;
+    margin: 6px auto;
+    height: 25px;
+    justify-content: space-between;
+   
+    
+   
+
+}
+.fakbox svg{
+  color: #000;
+}
